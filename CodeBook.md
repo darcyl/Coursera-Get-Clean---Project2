@@ -2,7 +2,14 @@
 title: "CodeBook.md"
 author: "Darcy Lewis"
 date: "Sunday, July 20, 2014"
-description: documentation for run_analysis.R 
+description: documentation for Project 2 in Geting & Cleaning Data 
+
+Contents: 
+Part 1 - Columns in data set (measure_summary.txt)
+Part 2 - All steps from source data to creation of the measure_summary.txt output file
+
+Part 1
+
 ---
 ```{r}
 setwd("C:/Users/Darcy/Documents/Coursera/GetAndClean/Project2")
