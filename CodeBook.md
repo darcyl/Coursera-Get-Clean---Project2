@@ -64,4 +64,3 @@ colnames(agg)[1:2]<-c("SubjectId","Activity")
 ## create file containing summarized tidy data
 write.csv(agg,file="measure_summary.txt")
 ```
-ting of the R code that generated the plot.
