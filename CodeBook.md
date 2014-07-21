@@ -10,10 +10,10 @@ Part 2 - All steps from source data to creation of the measure_summary.txt outpu
 ---
 ##Part 1 - Columns in data set (measure_summary.txt)
 *SubjectId -A unique identifier for a subject (person) participating in the program collecting data.  1-30
+
 *ActivityName - One of 6 possible values for the activity being performed when measurements were being collected: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING or LAYING
 
 *79 measurements
-
 Of the 561 measurements gathered/present in the original data source only those taking a mean or standard deviation were retained.  Multiple measurements were available in the original data for each subject and activity.  This data set has summarized the multiple measurements (by taking the mean) for a given subject and activity.  From the original documentation, below is a description of the measures (features) included in this data set.
 ---
 ```{r}
