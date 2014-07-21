@@ -8,8 +8,11 @@ Contents:
 Part 1 - Columns in data set (measure_summary.txt)
 Part 2 - All steps from source data to creation of the measure_summary.txt output file
 
-Part 1
-
+##Part 1
+*SubjectId -A unique identifier for a subject (person) participating in the program collecting data.  1-30
+*ActivityName - One of 6 possible values for the activity being performed when measurements were being collected: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING or LAYING
+*79 measurements
+**
 ---
 ```{r}
 setwd("C:/Users/Darcy/Documents/Coursera/GetAndClean/Project2")
