@@ -44,7 +44,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
+The set of variables that were included in the summary set: 
 
 mean(): Mean value
 std(): Standard deviation
