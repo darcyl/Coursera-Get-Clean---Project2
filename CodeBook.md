@@ -13,11 +13,10 @@ Part 2 - All steps from source data to creation of the measure_summary.txt outpu
 *ActivityName - One of 6 possible values for the activity being performed when measurements were being collected: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING or LAYING
 
 *79 measurements
-Of the 561 measurements gathered/present in the original data source only those taking a mean or standard deviation were retained.   Multiple measurements were available in the original data for each subject and activity.  This data set has summarized the multiple measurements (by taking the mean) for a given subject and activity.  From the original documentation, below is a description of the measures (features) included in this data set.
-eature Selection 
-=================
+Of the 561 measurements gathered/present in the original data source only those taking a mean or standard deviation were retained.  Multiple measurements were available in the original data for each subject and activity.  This data set has summarized the multiple measurements (by taking the mean) for a given subject and activity.  From the original documentation, below is a description of the measures (features) included in this data set.
 ---
 ```{r}
+Feature Selection 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
